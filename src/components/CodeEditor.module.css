@@ -1,0 +1,30 @@
+.codeEditor{
+    /* border: 5px solid red; */
+    height: 50vh;
+    display: flex;
+}
+
+.codeEditors{
+    height: 100% !important;
+    /* border: 5px solid red; */
+
+}
+
+.editor-logout{
+    text-align: center;
+    /* width: 10rem; */
+    /* margin: 0 auto; */
+}
+
+.editor-logout button{
+    height: 3rem;
+    width: 8rem;
+    font-size: 2rem;
+    color: black;
+    background-color: hsl(225, 6%, 25%);
+}
+
+.editor-logout button:hover{
+    color: white;
+    background-color: black;
+}

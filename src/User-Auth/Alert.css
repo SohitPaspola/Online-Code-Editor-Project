@@ -1,0 +1,22 @@
+.alert {
+
+    margin-bottom: 1rem;
+    /* height: 2.2rem; */
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    text-transform: capitalize;
+}
+
+.alert-danger {
+color: #661921;
+background: #f8c7cc;
+}
+
+
+.alert-success {
+color: #155724;
+background: #d4edda;
+}
