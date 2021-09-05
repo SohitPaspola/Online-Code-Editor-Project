@@ -11,7 +11,7 @@
 
 .signup-image{
     /* border: 2px solid black; */
-    max-width: 50%;
+    max-width: 60%;
     height: auto;
     margin-bottom: 1rem;
 }
@@ -31,7 +31,7 @@
     padding: 0 1rem;
     color: rgba(0, 0, 0, 0.842);
     font-weight: 700;
-    font-size: 2vw;
+    font-size: 2rem;
 }
 
 .form input{
@@ -43,12 +43,12 @@
   border-bottom: 2px solid #d8d8da;
   /* color: rgb(32, 15, 15); */
   color: blue;
-  font-size: 1.6vw;
+  font-size: 1.5rem;
   outline: #070741;
 }
 
 .signup-button{
-    font-size: 1.5vw;
+    font-size: 2rem;
     font-weight: 700;
     color: white;
     background-color: rgb(50, 50, 194);
@@ -62,11 +62,60 @@
     height: auto;
     text-align: center;
     /* margin: 0 auto; */
-    font-size: 2vw;
+    font-size: 2rem;
     color: blue;  
 }
 
 .forgotpass{
-    font-size: 2vw;
+    font-size: 2rem;
+}
+
+
+@media screen and (max-width: 900px){
+    .form label{
+        font-size: 2rem;
+    }
+    .form input{
+        font-size: 1.6rem;
+    }
+    .signup-button{
+        font-size: 2rem;
+    }
+    .forgotpass{
+        font-size: 2rem;
+    }
+    .login{
+        font-size: 2rem;
+    }
+    .signup-image{
+        max-width: 80%;
+    }
+    .signup{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .form label{
+        font-size: 2rem;
+    }
+    .form input{
+        font-size: 1.6rem;
+    }
+    .signup-button{
+        font-size: 2rem;
+    }
+    .forgotpass{
+        font-size: 2rem;
+    }
+    .login{
+        font-size: 1.8rem;
+    }
+    .signup-image{
+        max-width: 90%;
+    }
+    .signup{
+        width: 100%;
+    }
 }
 

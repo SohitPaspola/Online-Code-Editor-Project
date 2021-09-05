@@ -18,7 +18,7 @@
 
 .editor-logout button{
     height: 3rem;
-    width: 8rem;
+    width: 100%;
     font-size: 2rem;
     color: black;
     background-color: hsl(225, 6%, 25%);
@@ -27,4 +27,8 @@
 .editor-logout button:hover{
     color: white;
     background-color: black;
+}
+
+.usermail{
+    font-size: 3vh;
 }

@@ -51,7 +51,7 @@ const SignUp = () => {
             <input id="password" placeholder= '********' type= 'password' ref= {passwordRef}></input>
           </div>
           <div>
-            <label htmlFor="cpassword">Password Confirmation</label>
+            <label htmlFor="cpassword">Confirm Password</label>
             <input id="cpassword" placeholder= '********' type= 'password' ref= {confirmPasswordRef}></input>
           </div>
           <button disabled= {loading} className= {classes['signup-button']} type="submit">Sign Up</button>

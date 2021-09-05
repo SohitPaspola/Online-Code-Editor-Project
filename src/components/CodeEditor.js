@@ -74,7 +74,7 @@ const CodeEditor = () => {
       </div>
       <div className= {classes['editor-logout']}>
           <button onClick= {logoutHandler}>Log Out</button>
-          <strong>Email:</strong>{currentUser.email}
+          <div className= {classes.usermail}><strong>current User:</strong>{currentUser.email}</div>
       </div>
     </Fragment>
   );
